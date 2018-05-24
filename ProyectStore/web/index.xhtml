@@ -1,0 +1,319 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://xmlns.jcp.org/jsf/passthrough"
+      xmlns:b="http://bootsfaces.net/ui">
+    <h:head>
+        <title>Store</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="description" content=""/>
+        <meta name="author" content=""/>
+
+        <!-- CSS -->
+        <link href="#{request.contextPath}/resources/indexResources/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="#{request.contextPath}/resources/frameworks/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+        <link href="#{request.contextPath}/resources/indexResources/css/nivo-lightbox.css" rel="stylesheet" />
+        <link href="#{request.contextPath}/resources/indexResources/css/nivo-lightbox-theme/default/default.css" rel="stylesheet" type="text/css" />
+        <link href="#{request.contextPath}/resources/indexResources/css/owl.carousel.css" rel="stylesheet" media="screen" />
+        <link href="#{request.contextPath}/resources/indexResources/css/owl.theme.css" rel="stylesheet" media="screen" />
+        <link href="#{request.contextPath}/resources/indexResources/css/animate.css" rel="stylesheet" />
+        <link href="#{request.contextPath}/resources/indexResources/css/style.css" rel="stylesheet"/>
+        <link href="#{request.contextPath}/resources/indexResources/css/default.css" rel="stylesheet"/>
+    </h:head>
+    <h:body id="page-top" p:data-spy="scroll" p:data-target=".navbar-custom">
+        <!-- Preloader -->
+        <div id="preloader">
+            <div id="load"></div>
+        </div>
+
+        <!-- Section: intro -->
+        <section id="intro" class="intro">
+            <div class="login">
+                <h:form>
+                    <b:commandButton style="background-color: #000; border-color: #000; color: #fff;" value="Ingresar" class="boton-ingreso"/>
+                    <b:commandButton style="background-color: #000;  border-color: #000; color: #fff;" value="Registrarse" class="boton-registro"/>
+                </h:form>
+            </div>
+
+            <div class="slogan">
+
+                <a href="index.html"><img src="#{request.contextPath}/resources/indexResources/img/logo.png" alt="Inicio" class="img-circle" id="logo" /></a>
+            </div>
+
+            <div class="page-scroll">
+                <a href="#about">
+                    <i class="fa fa-angle-down fa-5x animated"></i>
+                </a>
+            </div>
+        </section>
+        <!-- /Section: intro -->
+
+        <!-- Navigation -->
+        <div id="navigation">
+            <nav class="navbar navbar-custom" role="navigation">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                                    <i class="fa fa-bars"></i>
+                                </button>
+                            </div>
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <div class="collapse navbar-collapse" id="menu">
+                                <ul class="nav navbar-nav">
+                                    <li class="active"><a href="#intro">Inicio</a></li>
+                                    <li><a href="#productos">Productos</a></li>
+                                    <li><a href="#gallery">Promociones</a></li>
+                                    <li><a href="#contact">Contactenos</a></li>
+                                    <li style="float: right;"><a href="#contact">Ingresar</a></li>
+                                    <li style="float: right;"><a href="#contact">Registrarse</a></li>
+                                </ul>
+                            </div>
+                            <!-- /.Navbar-collapse -->
+
+                        </div>
+                    </div>
+                </div>
+                <!-- /.container -->
+            </nav>
+        </div>
+        <!-- /Navigation -->
+
+        <!-- Section: about -->
+        <section id="productos" class="home-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+
+                        <div class="section-heading text-center">
+                            <div class="wow bounceInDown" data-wow-delay="0.2s">
+                                <h2>Productos</h2>
+                            </div>
+                            <p class="wow bounceInUp" data-wow-delay="0.3s">Seccion de productos: </p>
+                            <!--<p>Faust is an erudite who is highly successful yet dissatisfied with his life, which leads him to make a pact with the Devil, exchanging his soul for unlimited knowledge and worldly pleasures. The Faust legend has been the basis for many literary, artistic, cinematic, and musical works that have reinterpreted it through the ages. "Faust" and the adjective "Faustian" imply a situation in which an ambitious person surrenders moral integrity in order to achieve power and success for a delimited term.</p>-->
+                        </div>
+                        <div class="col-lg-4" id="producto">
+                            <img src="#{request.contextPath}/resources/indexResources/img/producto.png" alt="Inicio" class="img-thumbnail" id="producto" />
+                            <div class="descripcion-producto">
+                            Dr. Fausto by Jean-Paul Laurens
+                            Faust is the protagonist of a classic German legend, based on the historical Johann Georg Faust (c. 1480–1540).
+                            Faust is an erudite who is highly successful yet dissatisfied with his life, which leads him to make a pact with the Devil,
+                            exchanging his soul for unlimited knowledge and worldly pleasures. The Faust legend has been the basis for many literary, artistic, cinematic, and musical works that have reinterpreted it through the ages. "Faust" and the adjective "Faustian" imply a situation in which an ambitious person surrenders moral integrity in order to achieve power and success for a delimited term
+                            </div>
+                            <h:form>
+                                <b:commandButton style="background-color: #75031F; color: #fff;" value="Más" class="btn-mas-informacion"/>
+                            </h:form>
+                        </div>
+                        <div class="col-lg-4" id="producto">
+                            <img src="#{request.contextPath}/resources/indexResources/img/producto.png" alt="Inicio" class="img-thumbnail" id="producto" />
+                            <div class="descripcion-producto">
+                            Dr. Fausto by Jean-Paul Laurens
+                            Faust is the protagonist of a classic German legend, based on the historical Johann Georg Faust (c. 1480–1540).
+                            Faust is an erudite who is highly successful yet dissatisfied with his life, which leads him to make a pact with the Devil,
+                            exchanging his soul for unlimited knowledge and worldly pleasures. The Faust legend has been the basis for many literary, artistic, cinematic, and musical works that have reinterpreted it through the ages. "Faust" and the adjective "Faustian" imply a situation in which an ambitious person surrenders moral integrity in order to achieve power and success for a delimited term
+                            </div>
+                            <h:form>
+                                <b:commandButton style="background-color: #75031F; color: #fff;" value="Más" class="btn-mas-informacion"/>
+                            </h:form>
+                        </div>
+                        <div class="col-lg-4" id="producto">
+                            <img src="#{request.contextPath}/resources/indexResources/img/producto.png" alt="Inicio" class="img-thumbnail" id="producto" />
+                            <div class="descripcion-producto">
+                            Dr. Fausto by Jean-Paul Laurens
+                            Faust is the protagonist of a classic German legend, based on the historical Johann Georg Faust (c. 1480–1540).
+                            Faust is an erudite who is highly successful yet dissatisfied with his life, which leads him to make a pact with the Devil,
+                            exchanging his soul for unlimited knowledge and worldly pleasures. The Faust legend has been the basis for many literary, artistic, cinematic, and musical works that have reinterpreted it through the ages. "Faust" and the adjective "Faustian" imply a situation in which an ambitious person surrenders moral integrity in order to achieve power and success for a delimited term
+                            </div>
+                            <h:form>
+                                <b:commandButton style="background-color: #75031F; color: #fff;" value="Más" class="btn-mas-informacion"/>
+                            </h:form>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    
+                </div>
+            </div>
+        </section>
+        <!-- /Section: about -->
+
+        <!-- Section: separator -->
+        <section id="separator" class="home-section parallax text-center" data-stellar-background-ratio="0.5">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-6 col-sm-3 col-md-3">
+                        <div class="align-center txt-shadow">
+                            <div class="icon">
+                                <i class="fa fa-graduation-cap fa-5x"></i>
+                            </div>
+                            <span class="color-white">Bachelor of Design</span>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-3 col-md-3">
+                        <div class="align-center txt-shadow">
+                            <div class="icon">
+                                <i class="fa fa-heart fa-5x"></i>
+                            </div>
+                            <span class="color-white">10x failed in love</span>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-3 col-md-3">
+                        <div class="align-center txt-shadow">
+                            <div class="icon">
+                                <i class="fa fa-plane fa-5x"></i>
+                            </div>
+                            <span class="color-white">I love traveling</span>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-3 col-md-3">
+                        <div class="align-center txt-shadow">
+                            <div class="icon">
+                                <i class="fa fa-camera fa-5x"></i>
+                            </div>
+                            <span class="color-white">I'm photographer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /Section: separator -->
+
+
+        <!-- Section: gallery -->
+        <section id="gallery" class="home-section text-center bg-gray">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="wow bounceInDown" data-wow-delay="0.4s">
+                            <div class="section-heading">
+                                <h2>My photo gallery</h2>
+                                <p>Take a look at my personal moment, enjoy</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12">
+                        <div class="wow bounceInUp" data-wow-delay="0.4s">
+                            <div id="owl-works" class="owl-carousel">
+                                <div class="item"><a href="#{request.contextPath}/resources/indexResources/img/bg1.jpg" title="This is an image title" data-lightbox-gallery="gallery1"><img src="img/gallery/1.jpg" class="img-responsive" alt="img"/></a></div>
+                                <div class="item"><a href="#{request.contextPath}/resources/indexResources/img/logo.png" title="This is an image title" data-lightbox-gallery="gallery1"><img src="img/gallery/2.jpg" class="img-responsive " alt="img"/></a></div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /Section: services -->
+
+
+
+
+        <!-- Section: contact -->
+        <section id="contact" class="home-section text-center">
+            <div class="heading-contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-offset-2">
+
+                            <div class="section-heading">
+                                <div class="wow bounceInDown" data-wow-delay="0.4s">
+                                    <h2>Email or phone are welcome</h2>
+                                </div>
+                                <p class="wow lightSpeedIn" data-wow-delay="0.3s">Gentleman, introduce your self and get in touch with me privately</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-lg-8 col-md-offset-2">
+                        <div class="form-wrapper marginbot-50">
+                            <div id="sendmessage">Your message has been sent. Thank you!</div>
+                            <div id="errormessage"></div>
+                            <form id="contact-form" action="" method="post" role="form" class="contactForm">
+                                <div class="form-group">
+                                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                                    <div class="validation"></div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                                    <div class="validation"></div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                                    <div class="validation"></div>
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                                    <div class="validation"></div>
+                                </div>
+
+                                <div class="text-center"><button type="submit" class="btn btn-skin btn-block" id="btnContactUs">Send Message</button></div>
+                            </form>
+                        </div>
+                        <div class="text-center">
+                            <p class="lead"><i class="fa fa-phone"></i> Call me +1 888 9796 88</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- /Section: contact -->
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-lg-12">
+                        <p>&copy; Lonely Theme. All Rights Reserved</p>
+                        <div class="credits">
+                            <!--
+                              All the links in the footer should remain intact. 
+                              You can delete the links only if you purchased the pro version.
+                              Licensing information: https://bootstrapmade.com/license/
+                              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Lonely
+                            -->
+                            <a href="https://bootstrapmade.com/">Free Bootstrap Templates</a> by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Core JavaScript Files -->
+        <script src="#{request.contextPath}/resources/indexResources/js/jquery.min.js"></script>
+        <script src="#{request.contextPath}/resources/indexResources/js/bootstrap.min.js"></script>
+        <script src="#{request.contextPath}/resources/indexResources/js/jquery.easing.min.js"></script>
+        <script src="#{request.contextPath}/resources/indexResources/js/jquery.sticky.js"></script>
+        <script src="#{request.contextPath}/resources/indexResources/js/jquery.scrollTo.js"></script>
+        <script src="#{request.contextPath}/resources/indexResources/js/stellar.js"></script>
+        <script src="#{request.contextPath}/resources/indexResources/js/wow.min.js"></script>
+        <script src="#{request.contextPath}/resources/indexResources/js/owl.carousel.min.js"></script>
+        <script src="#{request.contextPath}/resources/indexResources/js/nivo-lightbox.min.js"></script>
+        <!-- Custom Theme JavaScript -->
+        <script src="#{request.contextPath}/resources/indexResources/js/custom.js"></script>
+        <script src="#{request.contextPath}/resources/indexResources/js/contactform.js"></script>
+    </h:body>
+</html>
+
